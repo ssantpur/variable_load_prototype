@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name variable_load)(type KiCad)(uri "$(KIPRJMOD)/variable_load.pretty")(options "")(descr ""))
+  (lib (name kk_adafruit)(type KiCad)(uri "$(KIPRJMOD)/library/kk_adafruit.pretty")(options "")(descr ""))
+  (lib (name kk_conn)(type KiCad)(uri "$(KIPRJMOD)/library/kk_conn.pretty")(options "")(descr ""))
+  (lib (name kk_holes)(type KiCad)(uri "$(KIPRJMOD)/library/kk_holes.pretty")(options "")(descr ""))
+  (lib (name zed)(type KiCad)(uri "$(KIPRJMOD)/library/zed.pretty")(options "")(descr ""))
+)

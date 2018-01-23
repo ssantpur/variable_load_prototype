@@ -1,4 +1,4 @@
-update=Thu 21 Dec 2017 04:23:17 PM PST
+update=Mon 22 Jan 2018 01:30:03 PM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -20,14 +20,11 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
-[cvpcb]
-version=1
-NetIExt=net
 [general]
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=library/kk_adafruit.pretty
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -68,3 +65,17 @@ LibName36=library/kk_power
 LibName37=library/kk_dac
 LibName38=library/kk_conn
 LibName39=library/kk_adc
+LibName40=library/kk_adafruit
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
+[cvpcb]
+version=1
+NetIExt=net
