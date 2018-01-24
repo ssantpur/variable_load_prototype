@@ -1,4 +1,4 @@
-update=Mon 22 Jan 2018 01:30:03 PM PST
+update=Tue 23 Jan 2018 04:10:28 PM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -22,6 +22,9 @@ BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
 [eeschema]
 version=1
 LibDir=library/kk_adafruit.pretty
@@ -76,6 +79,3 @@ NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[cvpcb]
-version=1
-NetIExt=net
