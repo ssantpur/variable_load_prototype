@@ -523,9 +523,9 @@ Wire Wire Line
 Connection ~ 7400 2600
 Connection ~ 7400 2300
 Wire Wire Line
-	7400 2300 7400 2400
+	7400 2150 7400 2400
 Wire Wire Line
-	7400 2600 7400 2500
+	7400 2500 7400 2750
 Wire Wire Line
 	5000 4100 4600 4100
 Wire Wire Line
@@ -538,34 +538,30 @@ Wire Wire Line
 	4200 3600 4300 3600
 Wire Wire Line
 	4600 3600 4700 3600
-Connection ~ 2300 5600
-Connection ~ 3000 5600
-Connection ~ 3000 5300
+Connection ~ 2800 5300
+Connection ~ 2800 5000
 Connection ~ 1600 5300
 Connection ~ 1600 5600
-Wire Wire Line
-	2300 5000 2300 6000
-Connection ~ 2300 5300
 $Comp
 L C C6
 U 1 1 5A3DACAD
-P 2650 5600
-F 0 "C6" H 2675 5700 50  0000 L CNN
-F 1 "C" H 2675 5500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 2688 5450 50  0001 C CNN
-F 3 "" H 2650 5600 50  0001 C CNN
-	1    2650 5600
+P 2450 5300
+F 0 "C6" H 2475 5400 50  0000 L CNN
+F 1 "C" H 2475 5200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2488 5150 50  0001 C CNN
+F 3 "" H 2450 5300 50  0001 C CNN
+	1    2450 5300
 	0    1    1    0   
 $EndComp
 $Comp
 L C C5
 U 1 1 5A3DAD8E
-P 2650 5300
-F 0 "C5" H 2675 5400 50  0000 L CNN
-F 1 "C" H 2675 5200 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 2688 5150 50  0001 C CNN
-F 3 "" H 2650 5300 50  0001 C CNN
-	1    2650 5300
+P 2450 5000
+F 0 "C5" H 2475 5100 50  0000 L CNN
+F 1 "C" H 2475 4900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2488 4850 50  0001 C CNN
+F 3 "" H 2450 5000 50  0001 C CNN
+	1    2450 5000
 	0    1    1    0   
 $EndComp
 $Comp
@@ -591,13 +587,9 @@ F 3 "" H 1950 5600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3000 5600 2800 5600
+	2800 5300 2600 5300
 Wire Wire Line
-	2100 5600 2500 5600
-Wire Wire Line
-	2800 5300 3000 5300
-Wire Wire Line
-	2100 5300 2500 5300
+	2600 5000 2800 5000
 Wire Wire Line
 	1600 5300 1800 5300
 Wire Wire Line
@@ -647,17 +639,17 @@ Text Label 6700 5400 0    60   ~ 0
 3V3LDO
 Text Label 1600 5000 0    60   ~ 0
 +Vcc
-Text Label 3000 5000 0    60   ~ 0
+Text Label 2800 4700 0    60   ~ 0
 -Vcc
-Text Label 2300 5000 0    60   ~ 0
+Text Label 2700 5900 0    60   ~ 0
 GND
 Text Label 4000 5700 0    60   ~ 0
 GND
 Text Label 3900 4800 0    60   ~ 0
 3V3LDO
-Text Label 7700 2350 0    60   ~ 0
+Text Label 7600 2400 0    60   ~ 0
 Vin
-Text Label 7700 2600 0    60   ~ 0
+Text Label 7600 2600 0    60   ~ 0
 Vin_rtn
 Text Label 5100 1100 0    60   ~ 0
 +Vcc
@@ -713,17 +705,11 @@ F 3 "" H 2400 6200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3000 5000 3000 6000
+	2800 5700 2800 4700
 Wire Wire Line
 	1600 5000 1600 6000
 Wire Wire Line
 	1600 6000 2200 6000
-Wire Wire Line
-	3000 6000 2500 6000
-Connection ~ 2400 5600
-Connection ~ 2400 5300
-Wire Wire Line
-	2400 5000 2400 6000
 $Comp
 L R R3
 U 1 1 5A4CAC92
@@ -1401,17 +1387,17 @@ $EndComp
 $Comp
 L PWR_FLAG #FLG015
 U 1 1 5A732F81
-P 2700 5900
-F 0 "#FLG015" H 2700 5975 50  0001 C CNN
-F 1 "PWR_FLAG" H 2700 6050 50  0000 C CNN
-F 2 "" H 2700 5900 50  0001 C CNN
-F 3 "" H 2700 5900 50  0001 C CNN
-	1    2700 5900
+P 2500 5600
+F 0 "#FLG015" H 2500 5675 50  0001 C CNN
+F 1 "PWR_FLAG" H 2500 5750 50  0000 C CNN
+F 2 "" H 2500 5600 50  0001 C CNN
+F 3 "" H 2500 5600 50  0001 C CNN
+	1    2500 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 6000 2700 5900
-Connection ~ 2700 6000
+	2500 5700 2500 5600
+Connection ~ 2500 5700
 Wire Wire Line
 	2000 6000 2000 5900
 Connection ~ 2000 6000
@@ -1686,4 +1672,59 @@ F 3 "" H 4450 6500 50  0001 C CNN
 $EndComp
 Text Label 5600 6500 0    60   ~ 0
 +Vcc
+$Comp
+L Conn_01x02 J8
+U 1 1 5AAADB35
+P 4300 1400
+F 0 "J8" H 4300 1500 50  0000 C CNN
+F 1 "Conn_01x02" H 4300 1200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4300 1400 50  0001 C CNN
+F 3 "" H 4300 1400 50  0001 C CNN
+	1    4300 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 1400 4100 1100
+Connection ~ 4100 1100
+Wire Wire Line
+	3600 1500 4100 1500
+Connection ~ 3600 1500
+$Comp
+L Conn_01x02 J9
+U 1 1 5AAAF82F
+P 8000 2400
+F 0 "J9" H 8000 2500 50  0000 C CNN
+F 1 "Conn_01x02" H 8000 2200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8000 2400 50  0001 C CNN
+F 3 "" H 8000 2400 50  0001 C CNN
+	1    8000 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 2150 7800 2150
+Wire Wire Line
+	7800 2150 7800 2400
+Wire Wire Line
+	7400 2750 7800 2750
+Wire Wire Line
+	7800 2750 7800 2500
+Wire Wire Line
+	2300 6000 2300 5700
+Wire Wire Line
+	2300 5700 2800 5700
+Wire Wire Line
+	2400 6000 2400 5900
+Wire Wire Line
+	2400 5900 2700 5900
+Wire Wire Line
+	2500 6000 2500 5900
+Connection ~ 2500 5900
+Wire Wire Line
+	2100 5600 2100 5100
+Wire Wire Line
+	2300 5300 2300 4700
+Text Label 2300 4700 0    60   ~ 0
+GND
+Text Label 2100 5100 0    60   ~ 0
+GND
 $EndSCHEMATC
