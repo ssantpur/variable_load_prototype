@@ -1,4 +1,4 @@
-update=Mon 12 Mar 2018 01:29:13 PM PDT
+update=Mon 19 Mar 2018 01:06:23 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,9 +25,19 @@ version=1
 [cvpcb]
 version=1
 NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=library/kk_adafruit.pretty
+LibDir=library/kk_adafruit.pretty;library/lbnl_logo.pretty;library/lbnl_logo.pretty
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -69,13 +79,3 @@ LibName37=library/kk_dac
 LibName38=library/kk_conn
 LibName39=library/kk_adc
 LibName40=library/kk_adafruit
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
