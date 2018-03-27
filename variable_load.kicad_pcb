@@ -2,7 +2,7 @@
 
   (general
     (links 149)
-    (no_connects 1)
+    (no_connects 0)
     (area 105.307714 12.330999 204.80162 77.487)
     (thickness 1.6)
     (drawings 13)
@@ -3407,6 +3407,9 @@
   (segment (start 168 59.675) (end 167.95 59.725) (width 0.254) (layer F.Cu) (net 1) (tstamp 5AA862BD))
   (segment (start 180 72) (end 177 72) (width 0.254) (layer F.Cu) (net 1) (status 10))
   (segment (start 168 59.675) (end 167.95 59.725) (width 0.254) (layer F.Cu) (net 1) (tstamp 5AA6E98A) (status 30))
+  (segment (start 180 74) (end 181.696 74) (width 0.254) (layer F.Cu) (net 2))
+  (via (at 182.118 74.422) (size 0.6096) (drill 0.4064) (layers F.Cu B.Cu) (net 2))
+  (segment (start 181.696 74) (end 182.118 74.422) (width 0.254) (layer F.Cu) (net 2) (tstamp 5AB98E8E))
   (segment (start 173 60) (end 173 61.188) (width 0.254) (layer F.Cu) (net 2))
   (segment (start 173 61.188) (end 172.974 61.214) (width 0.254) (layer F.Cu) (net 2) (tstamp 5AB96B48))
   (via (at 172.974 61.214) (size 0.6096) (drill 0.4064) (layers F.Cu B.Cu) (net 2))
@@ -3447,9 +3450,6 @@
   (segment (start 171.95 73) (end 171.95 72.95) (width 0.254) (layer F.Cu) (net 2))
   (segment (start 171.95 72.95) (end 170 71) (width 0.254) (layer F.Cu) (net 2) (tstamp 5AAB0A5E))
   (via (at 170 71) (size 0.6096) (drill 0.4064) (layers F.Cu B.Cu) (net 2))
-  (segment (start 180 74) (end 181 74) (width 0.254) (layer F.Cu) (net 2))
-  (via (at 182 73) (size 0.6096) (drill 0.4064) (layers F.Cu B.Cu) (net 2))
-  (segment (start 181 74) (end 182 73) (width 0.254) (layer F.Cu) (net 2) (tstamp 5AAB0A53))
   (segment (start 182.438 53.34) (end 182.438 53.39) (width 0.254) (layer F.Cu) (net 2) (status 30))
   (segment (start 168 55) (end 170 55) (width 0.254) (layer F.Cu) (net 2))
   (via (at 170 55) (size 0.6096) (drill 0.4064) (layers F.Cu B.Cu) (net 2))
